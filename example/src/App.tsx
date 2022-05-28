@@ -1,12 +1,12 @@
 import * as React from 'react';
 
 import { StyleSheet, View } from 'react-native';
-import { SwiperView } from 'react-native-swiper';
+import SwiperView from 'react-native-swiper';
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <SwiperViewManager color="#32a852" style={styles.box} />
+      <SwiperView style={styles.box} />
     </View>
   );
 }

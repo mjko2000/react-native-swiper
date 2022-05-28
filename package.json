@@ -1,5 +1,5 @@
 {
-  "name": "react-native-swiper",
+  "name": "@ndeva_public/react-native-swiper",
   "version": "0.1.0",
   "description": "Swiper component for React Native Application",
   "main": "lib/commonjs/index",
@@ -69,7 +69,8 @@
   },
   "peerDependencies": {
     "react": "*",
-    "react-native": "*"
+    "react-native": "*",
+    "prop-types": "^15.5.10"
   },
   "jest": {
     "preset": "react-native",
